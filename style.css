@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    overflow-x: hidden;
+    max-width: 100%;
+}
+.collapse{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar{
+    background-color: black;
+ }
+ .fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    opacity: .9;
+}
+ .navbar-brand img{
+    width:8%;
+    margin-left: 20px;
+    border-radius: 12px;
+ }
+ .navbar-collapse ul li a:hover {
+    color: red !important;
+    transition-duration: 0.5s;
+    
+}
+/* #home-section img{
+    width: 100%;
+    height: 83%;
+    opacity: 0.6;
+    position: relative; 
+} */
+#home-section {
+    background: url(homebackground.jpg) center/cover no-repeat;
+    width: 100%;
+    height: 100vh !important;
+    opacity: 0.6;
+}
+#about-section{
+    background: url(about-us.jpg) center/cover no-repeat;
+    width: 100%;
+    height: 100vh !important;
+    /* opacity: 0.6; */
+}
+#galary-section{
+    background: url(galary.png) center/cover no-repeat;
+    width: 100%;
+    height: 100vh !important;
+}
+#contact-section{
+    background: url(contact-us.jpg) center/cover no-repeat;
+    width: 100%;
+    height: 100vh !important;
+}
+#registration-section{
+    background: url(registration.jpg) center/cover no-repeat;
+    width: 100%;
+    height: 100vh !important;
+}
+.reg-now img{
+    width: 104%;
+    height: 100%;
+}
+.card img{
+    width: 100%;
+}
+
+.message{
+    background: linear-gradient(45deg, black, transparent);
+    color: antiquewhite;
+}
+
+
+
+
+
+
+
